@@ -13,7 +13,7 @@ func TestCheckRequiredFiles(t *testing.T) {
 
 	dir, err := os.Getwd()
 	if err != nil {
-		t.Errorf(err.Error())
+		t.Errorf("error getting current directory: %v", err)
 	}
 
 	files, err := os.ReadDir(dir)

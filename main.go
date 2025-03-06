@@ -2,6 +2,7 @@
 
 package main
 
+// дополнительная проверка
 import (
 	"fmt"
 )
